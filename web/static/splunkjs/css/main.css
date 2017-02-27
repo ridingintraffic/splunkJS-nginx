@@ -1,0 +1,117 @@
+@import "bootstrap.css";
+
+html,
+body {
+    height:100%;
+}
+
+body {
+    background: #dbc6f7;
+    background: -webkit-radial-gradient(#dbc6f7, #ffffff);
+    background: -o-radial-gradient(#dbc6f7, #ffffff);
+    background: -moz-radial-gradient(#dbc6f7, #ffffff);
+    background: radial-gradient(#dbc6f7, #ffffff);
+}
+
+.navbar-inverse {
+    background-color: #532380;
+    border-color: #250858;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #7b2b83;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #250858;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.pipeline-component thead {
+    background-color: white;
+}
+.pipeline-component h3 {
+    margin-top: 0;
+}
+.pipeline-component tr.danger p.text-muted {
+    color: #b68d8d;
+}
+.pipeline-component .approval-buttons {
+    visibility: hidden;
+}
+.pipeline-component tr:hover .approval-buttons {
+    visibility: visible;
+}
+.pipeline-component tr.danger .deploy-form {
+    display: none;
+}
+.pipeline-component tr.danger td:hover .deploy-form {
+    display: none;
+}
+.pipeline-component td {
+    font-size: 2.25rem;
+}
+.pipeline-component th,
+.pipeline-component td p {
+    font-size: 2rem;
+}
+.pipeline-component td small {
+    font-size: 1.8rem;
+}
+.pipeline-component td.success {
+    color: #93a533 !important;
+}
+.pipeline-component td .deploy-form {
+    display: none;
+}
+.pipeline-component td .display-text {
+    display: block;
+    font-weight: bold;
+}
+.pipeline-component tr.danger td .display-text {
+    color: #cc1100;
+}
+.pipeline-component tr.danger td:hover .display-text {
+    display: block;
+}
+.pipeline-component td:hover .deploy-form {
+    display: block;
+}
+.pipeline-component td:hover .display-text {
+    display: none;
+}
+
+.composite-env-status .table>tbody>tr>td,
+.composite-env-status .table>tbody>tr>th,
+.composite-env-status .table>tfoot>tr>td,
+.composite-env-status .table>tfoot>tr>th,
+.composite-env-status .table>thead>tr>td,
+.composite-env-status .table>thead>tr>th {
+    max-width: 0;
+}
+.member-table.table {
+    background-color: transparent;
+    margin-bottom: 16px;
+}
+.member-table.table>tbody>tr:first-child,
+.member-table.table>tbody>tr:first-child>td {
+    border-top: 0 none !important;
+}
+.member-table.table>tbody>tr>td,
+.member-table.table>tbody>tr>th,
+.member-table.table>tfoot>tr>td,
+.member-table.table>tfoot>tr>th,
+.member-table.table>thead>tr>td,
+.member-table.table>thead>tr>th {
+    max-width: 0;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
